@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components{
+    .header{
+        @apply font-raleWay font-bold text-xl my-4
+    }
+
+    .text{
+        @apply font-openSans font-normal max-w-md mx-auto 
+    }
+
+    .card{
+        @apply flex flex-col justify-center items-center text-center m-7
+    }
+
+    .card-2{
+        @apply bg-d_blue_v4 lg:py-8 py-5 lg:px-10 px-8 text-white font-openSans rounded-md shadow-xl max-w-md mx-auto
+    }
+
+    .name{
+        @apply font-bold mb-0
+    }
+
+    .job{
+        @apply text-xs font-normal
+    }
+}
